@@ -22,6 +22,7 @@ window.onload = function(){
         appendTens.innerHTML = tens;
         appendSeconds.innerHTML = seconds;
     }
+    
     function startTimer() {
         tens++;
         if(tens<=9){
